@@ -1,0 +1,24 @@
+
+Scott@DESKTOP-TUU7C6T MINGW64 /d/UnrealProjects/Aura (main)
+$ git push -u origin main
+Enumerating objects: 1346, done.
+Counting objects: 100% (1346/1346), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (1299/1299), done.
+Writing objects: 100% (1346/1346), 1.52 GiB | 2.17 MiB/s, done.
+Total 1346 (delta 305), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (305/305), done.
+remote: warning: File Intermediate/ProjectFiles/.Rider/Win64/DebugGame/Editor/UE5.json is 65.54 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: File Binaries/Win64/UnrealEditor-Aura-9162.pdb is 52.62 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: File Intermediate/Build/Win64/x64/AuraEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.obj is 64.53 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: File Intermediate/ProjectFiles/.Rider/Win64/Development/Editor/UE5.json is 65.54 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: File Binaries/Win64/UnrealEditor-Aura-Win64-DebugGame.pdb is 54.56 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: warning: File Intermediate/Build/Win64/x64/AuraEditor/DebugGame/UnrealEd/SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.InclOrderOldest.h.obj is 64.61 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB
+remote: error: Trace: a26be86765839f43e368ea0a414fd9bf705441e8799af4a9436f7ca511b40db6
+remote: error: See https://gh.io/lfs for more information.
+remote: error: File Intermediate/Build/Win64/x64/AuraEditor/DebugGame/UnrealEd/SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.InclOrderOldest.h.pch is 2010.75 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: File Intermediate/Build/Win64/x64/AuraEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.InclOrderOldest.h.pch is 2010.69 MB; this exceeds GitHub's file size limit of 100.00 MB
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.
+To https://github.com/ScottyHar/GameAbilityV001.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/ScottyHar/GameAbilityV001.git'
