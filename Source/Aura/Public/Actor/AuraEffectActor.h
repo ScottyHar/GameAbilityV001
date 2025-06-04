@@ -1,11 +1,13 @@
 // Toolmanproductions
 
 #pragma once
-
+#include "GameplayEffectTypes.h"
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "AuraEffectActor.generated.h"
 
+
+class UAbilitySystemComponent;
 class USphereComponent;
 
 UENUM(BlueprintType)
@@ -71,4 +73,6 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Applied Effects")
 	EEffectRemovalPolicy InfiniteEffectRemovalPolicy = EEffectRemovalPolicy::RemoveOnEndOverlap;
+
+	TMap<FActiveGameplayEffectHandle, UAbilitySystemComponent*> ActiveEffectHandles;
 };
